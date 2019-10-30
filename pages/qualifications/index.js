@@ -1,5 +1,5 @@
 import Layout from '../../components/Layout'
-import qualifications from './qualifications'
+import qualifications from '../../static/qualifications'
 import ExpandingSections from '../../components/ExpandingSections'
 import Qualification from '../../components/Qualification'
 

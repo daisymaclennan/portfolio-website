@@ -1,5 +1,5 @@
 import Layout from '../../components/Layout'
-import contactDetails from './contactDetails'
+import contactDetails from '../../static/contactDetails'
 import ContactField from '../../components/ContactField'
 
 export default () => (

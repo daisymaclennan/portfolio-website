@@ -39,6 +39,19 @@ const ExpandingSections = styled.div`
     width: calc(100vw - 672px);
   }
 }
+/*Temporary styles until slider is built*/
+.siema {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  max-width: calc(100vw - 672px);
+}
+
+.siema img{
+  width: 100%;
+}
+
 `
 
 export default ExpandingSections

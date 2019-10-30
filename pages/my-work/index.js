@@ -1,7 +1,7 @@
 import Layout from '../../components/Layout'
 import ExpandingSections from '../../components/ExpandingSections'
 import Projects from '../../components/Projects'
-import myWork from './myWork'
+import myWork from '../../static/myWork'
 import React, {useState} from 'react'
 
 export default () => {
@@ -40,7 +40,9 @@ export default () => {
                 <div className='expandingSection--child'>
                   <div className="siema">
                     {work.img.map(i => (
-                      <img src={`/static/img/${i.filename}`} alt={`${i.alt}`} />
+                      <a href={`/static/img/${i.filename}`}>
+                        <img src={`/static/img/${i.filename}`} alt={`${i.alt}`} />
+                      </a>
                     ))}
                   </div>
                 </div>

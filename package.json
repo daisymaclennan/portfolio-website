@@ -4,10 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next",
-    "dist": "next build",
-    "start": "next start"
+    "build": "next build",
+    "export": "next export"
   },
   "author": "Daisy",
   "license": "ISC",
@@ -22,6 +20,7 @@
     "styled-components": "^4.3.2"
   },
   "devDependencies": {
-    "babel-plugin-styled-components": "^1.10.6"
+    "babel-plugin-styled-components": "^1.10.6",
+    "css-loader": "^3.2.0"
   }
 }

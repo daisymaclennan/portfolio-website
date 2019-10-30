@@ -6,18 +6,22 @@ const myWork = [
     time_period: 'October 2019',
     img: [
       {
+        index: 0,
         alt: 'Word processing section of the application',
         filename: 'word-one.png'
       },
       {
+        index: 1,
         alt: 'Sign in section of the application with an error visible',
         filename: 'word-two.png'
       },
       {
+        index: 2,
         alt: 'Register section of the application with an error visible',
         filename: 'word-three.png'
       },
       {
+        index: 3,
         alt: 'Register section without errors',
         filename: 'word-four.png'
       },
@@ -30,22 +34,27 @@ const myWork = [
     time_period: 'June 2019 to August 2019',
     img: [
       {
+        index: 0,
         alt: 'Sign in box for Creative Portsmouth',
         filename: 'cp-one.png'
       },
       {
+        index: 1,
         alt: 'Home page of Creative Portsmouth',
         filename: 'cp-two.png'
       },
       {
+        index: 2,
         alt: 'Home page with new map colours for Creative Portsmouth',
         filename: 'cp-three.png'
       },
       {
+        index: 3,
         alt: 'Homepage with organisation tab open for Creative Portsmouth',
         filename: 'cp-four.png'
       },
       {
+        index: 4,
         alt: 'Homepage with organisation tab open for Creative Portsmouth',
         filename: 'cp-five.png'
       },
